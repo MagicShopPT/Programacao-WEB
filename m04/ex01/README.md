@@ -1,16 +1,43 @@
-# React + Vite
+Trabalho realizado por: *Vitor Silva* **13422**. Licenciatura em Informática, 19/11/2026.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Módulo 04 — REACT
 
-Currently, two official plugins are available:
+Este ficheiro documenta o progresso do Módulo 04 da unidade curricular de Programação WEB do Instituto Superior Miguel Torga (ISMT) até ao **EX01 — First Component**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Lista de Exercícios Realizados
+- [x] **EX01 — First Component** *(Nível L1)*: Aplicação React composta por componentes modulares (`App`, `Header`, `Navigation`, `Main` e `Footer`).
 
-## React Compiler
+## Descrição dos Exercícios e Tomadas de Decisão
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### EX01 — First Component
+* **Objetivo:** Compreender a estrutura de uma aplicação React organizada por componentes reutilizáveis que devolvem JSX.
+* **Decisões tomadas:**
+  * Inicialização do projeto com Vite (`npm create vite@latest ex01`) na pasta `ex01/` dentro do repositório `m04`.
+  * Criação dos componentes `Header`, `Navigation`, `Main` e `Footer` em ficheiros próprios na pasta `src/components/`, compostos posteriormente dentro de `App` em `src/App.jsx`.
+  * Utilização de elementos semânticos HTML no JSX (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`) e navegação interna por âncoras.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
+* React (com Vite e ESLint)
+* JavaScript (JSX)
+* HTML5 / CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como Executar
+1. Abrir a pasta `m04/ex01` no Visual Studio Code.
+2. No terminal integrado, instalar dependências (`npm install`) e iniciar o servidor de desenvolvimento (`npm run dev`).
+3. Abrir o endereço local indicado pelo Vite (ex.: `http://localhost:5173/`) no navegador.
+
+## Estrutura do Projeto
+```text
+m04/
+└── ex01/
+    ├── index.html
+    ├── package.json
+    ├── README.md
+    └── src/
+        ├── main.jsx
+        ├── App.jsx
+        └── components/
+            ├── Header.jsx
+            ├── Navigation.jsx
+            ├── Main.jsx
+            └── Footer.jsx
