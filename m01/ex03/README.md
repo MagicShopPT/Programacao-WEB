@@ -1,6 +1,6 @@
 Trabalho realizado por: *Vitor Silva* (**12345**)
 
-**Curso:** Licenciatura em Informática (DS / SE) - Instituto Superior Miguel Torga (ISMT)
+**Curso:** Licenciatura em Informática (SE) - Instituto Superior Miguel Torga (ISMT)
 
 **Unidade Curricular:** Programação WEB
 

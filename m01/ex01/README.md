@@ -1,6 +1,6 @@
 Trabalho realizado por: *Vitor Silva* (**13422**)
 
-**Curso:** Licenciatura em Informática (DS / SE) - Instituto Superior Miguel Torga (ISMT)  
+**Curso:** Licenciatura em Informática (SE) - Instituto Superior Miguel Torga (ISMT)  
 **Unidade Curricular:** Programação WEB  
 **Data de Submissão:** 18 de novembro de 2026
 
