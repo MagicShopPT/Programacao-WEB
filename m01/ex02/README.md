@@ -53,8 +53,10 @@ O segundo exercício teve como objetivo evoluir o perfil pessoal para uma estrut
 Modulo 01/
 ├── ex01/
 │   └── index.html
+|   └── README.md
 ├── ex02/
 │   └── index.html
+|   └── README.md
 └── README.md
 ```
 

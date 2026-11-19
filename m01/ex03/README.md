@@ -15,8 +15,6 @@ Este projeto corresponde à resolução dos exercícios práticos do Módulo 01 
 * [x] **EX01** — First Page (Página Pessoal)
 * [x] **EX02** — Semantic Profile (Perfil Pessoal Semântico)
 * [x] **EX03** — News Page (Jornal Tecnológico TechNews + Bónus)
-* [ ] **EX04** — *(Adicionar título do exercício quando concluído)*
-* [ ] **EX05** — *(Adicionar título do exercício quando concluído)*
 
 ## Descrição dos Exercícios e Tomadas de Decisão
 
@@ -48,8 +46,8 @@ O terceiro exercício teve como objetivo desenvolver a página inicial de um peq
 **Principais tomadas de decisão e aspetos técnicos relevantes:**
 
 * **Organização por Categorias e Navegação:** O menu de navegação (`<nav>`) utiliza âncoras internas (`#tecnologia`, `#programacao`, `#ia`, `#seguranca`) para permitir o acesso rápido às diferentes secções temáticas (`<section>`) da página principal.
-* **Consistência Estrutural dos Artigos:** Foram criadas cinco notícias distintas encapsuladas em elementos `<article>`. Todas seguem rigorosamente a mesma estrutura interna (título `<h3>`, linha de metadados com autor, data semântica `<time>` e categoria, imagem `<img>` com `alt` descritivo, parágrafo de resumo e hiperligação para leitura completa).
-* **Implementação do Bónus (Páginas Individuais):** Para cumprir o requisito bónus em HTML estático puro, cada notícia na página inicial (`index.html`) aponta para um ficheiro HTML individual (`noticia-1.html` a `noticia-5.html`). Cada página individual contém o desenvolvimento completo do respetivo artigo e um link de navegação para regressar à página inicial.
+* **Consistência Estrutural dos Artigos:** Foram criadas cinco notícias distintas encapsuladas em elementos `<article>`. Todas seguem rigorosamente a mesma estrutura interna (título `<h3>`, linha de metadados com autor, data semântica `<time>` e categoria, imagem local `<img>` otimizada em formatos modernos `.webp`/`.avif` com atributo `alt` descritivo, parágrafo de resumo e hiperligação para leitura completa).
+* **Implementação do Bónus (Páginas Individuais):** Para cumprir o requisito bónus em HTML estático puro, cada notícia na página inicial (`index.html`) aponta diretamente para um ficheiro HTML independente (`noticia-1.html` a `noticia-5.html`) na mesma diretoria. Cada página individual mantém a consistência visual/estrutural com a imagem correspondente, o texto completo do artigo e navegação direta de regresso à página inicial.
 
 ## Tecnologias Utilizadas
 
@@ -57,24 +55,32 @@ O terceiro exercício teve como objetivo desenvolver a página inicial de um peq
 
 ## Como Executar
 
-1. Abrir a pasta do projeto no editor de código (ex: Visual Studio Code).
+1. Abrir a pasta do projeto (`M01`) no editor de código (ex: Visual Studio Code).
 2. Abrir o ficheiro `index.html` da pasta do exercício pretendido (`ex01/`, `ex02/` ou `ex03/`) diretamente num navegador web, ou utilizar a extensão **Live Server**.
 
 ## Estrutura do Projeto
 
 ```text
-Modulo 01/
+M01/
 ├── ex01/
-│   └── index.html
+│   ├── index.html
+│   └── README.md
 ├── ex02/
-│   └── index.html
+│   ├── index.html
+│   └── README.md
 ├── ex03/
 │   ├── index.html
 │   ├── noticia-1.html
 │   ├── noticia-2.html
 │   ├── noticia-3.html
 │   ├── noticia-4.html
-│   └── noticia-5.html
+│   ├── noticia-5.html
+│   ├── tecnologia.webp
+│   ├── codigo.webp
+│   ├── versoes.webp
+│   ├── ia.webp
+│   ├── cadeado.avif
+│   └── README.md
 └── README.md
 ```
 

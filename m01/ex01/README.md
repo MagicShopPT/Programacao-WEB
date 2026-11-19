@@ -33,6 +33,7 @@ O objetivo deste primeiro exercício consistiu na criação de uma página web p
 Modulo 01/
 ├── EX01/
 │   └── index.html
+|   └── README.md
 └── README.md
 ```
 
