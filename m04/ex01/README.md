@@ -29,15 +29,16 @@ Este ficheiro documenta o progresso do Módulo 04 da unidade curricular de Progr
 ## Estrutura do Projeto
 ```text
 m04/
-└── ex01/
-    ├── index.html
-    ├── package.json
-    ├── README.md
-    └── src/
-        ├── main.jsx
-        ├── App.jsx
-        └── components/
-            ├── Header.jsx
-            ├── Navigation.jsx
-            ├── Main.jsx
-            └── Footer.jsx
+├── ex01/
+|   ├── index.html
+|   ├── package.json
+|   ├── README.md
+|   └── src/
+|       ├── main.jsx
+|       ├── App.jsx
+|       └── components/
+|           ├── Header.jsx
+|           ├── Navigation.jsx
+|           ├── Main.jsx
+|           └── Footer.jsx
+└── README.md
