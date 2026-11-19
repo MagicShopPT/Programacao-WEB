@@ -38,6 +38,24 @@ Este ficheiro documenta a evolução progressiva da resolução dos exercícios 
 1. Abrir a pasta do módulo (`m02`) no Visual Studio Code.
 2. Abrir o ficheiro HTML do exercício pretendido (`ex01/exemplo_exer1_CSS.html`, `ex02/index.html` ou `ex03/index.html`) num navegador web ou através da extensão **Live Server**.
 
+## Estrutura do Projeto (até EX04)
+```text
+m02/
+├── ex01/
+│   ├── exemplo_exer1_CSS.html
+│   ├── styles.css
+│   └── README.md
+├── ex02/
+│   ├── index.html
+│   ├── styles.css
+│   └── README.md
+├── ex03/
+│   ├── index.html
+│   ├── styles.css
+│   └── README.md
+└── README.md
+```
+
 #### Autor
 **Vitor Silva** (Nº 13422)
 * GitHub: [MagicShopPT](https://github.com/MagicShopPT)

@@ -39,10 +39,11 @@ m02/
 │   ├── exemplo_exer1_CSS.html
 │   ├── styles.css
 │   └── README.md
-└── ex02/
-    ├── index.html
-    ├── styles.css
-    └── README.md
+├── ex02/
+|   ├── index.html
+|   ├── styles.css
+|   └── README.md
+└── README.md
 ```
 
 #### Autor

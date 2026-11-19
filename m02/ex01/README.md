@@ -28,10 +28,11 @@ Este documento apresenta a resolução progressiva dos exercícios práticos do 
 ## Estrutura do Projeto (até EX01)
 ```text
 m02/
-└── ex01/
-    ├── exemplo_exer1_CSS.html
-    ├── styles.css
-    └── README.md
+├── ex01/
+|   ├── exemplo_exer1_CSS.html
+|   ├── styles.css
+|   └── README.md
+└── README.md
 ```
 
 #### Autor
